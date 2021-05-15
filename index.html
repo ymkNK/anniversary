@@ -63,6 +63,7 @@
         .canvas {
             margin: 0 auto;
             display: block;
+            position: fixed;
         }
         img#logo-girl,img#logo-boy {
             width: 128px;
@@ -99,7 +100,7 @@
             text-align: center;
         }
         .text {
-            position: relative;
+            position: fixed;
             bottom: 80px;
             text-align: center;
             width: 100%;
@@ -135,7 +136,6 @@
     We have known each other for
     <br/>
     <span id="span_know_dt"></span>
-
 </p>
 
 <script language="javascript">
@@ -193,11 +193,11 @@
             }else if (a==2){
                 document.body.classList.add('body--ready1');
                 // alert("");
-                S.UI.simulate("你想去的地方|我都陪你去~|璠璠|我爱你|#time");
+                S.UI.simulate("你想去的地方|我都陪你去|璠璠|我爱你|#time");
             }else if (a==3) {
                  document.body.classList.add('body--ready2');
                  // alert("");
-                 S.UI.simulate("你想做的事情我都陪你做~|Nice|to|Meet|You|#countdown 3|#time");
+                 S.UI.simulate("你想做的事情我都陪你做|Nice|to|Meet|You|#countdown 3|#time");
             }else if (a==4) {
                  document.body.classList.add('body--ready3');
                  // alert("，，，~");
@@ -205,7 +205,7 @@
             }else{
                  document.body.classList.add('body--ready4');
                  // alert("");
-                 S.UI.simulate("璠璠|我爱你~|小可爱！|#time");
+                 S.UI.simulate("璠璠|我爱你|小可爱！|#time");
             }
 
             S.Drawing.loop(function () {
