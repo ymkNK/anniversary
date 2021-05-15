@@ -6,7 +6,6 @@
     <title>For My Love</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta itemprop="image" content="https://lllovol.oss-cn-beijing.aliyuncs.com/icon/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210516010038.jpg?Expires=1621098468&OSSAccessKeyId=TMP.3KdFtE6sKFurT5v7Bx4uguyXH9Z1vakcN5wJncoGfHWmBgf4ygxKsXKEhLj4rEpZq7CW2qjj7EyUZydJuSYdt8HqpwW4Vs&Signature=gccJgQMli9RR2HsoRipadwRhR00%3D" />
     <style>
         html {
             height: 100%;
@@ -122,15 +121,15 @@
 <body>
 <!--更改为你女朋友的头像-->
 <div class="cs">
-    <img src="https://lllovol.oss-cn-beijing.aliyuncs.com/icon/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210516010023.jpg?Expires=1621098428&OSSAccessKeyId=TMP.3KdFtE6sKFurT5v7Bx4uguyXH9Z1vakcN5wJncoGfHWmBgf4ygxKsXKEhLj4rEpZq7CW2qjj7EyUZydJuSYdt8HqpwW4Vs&Signature=tUIRUxKA2UJDJ7nqza63pf7hSj4%3D" id="logo">
+    <img src="https://lllovol.oss-cn-beijing.aliyuncs.com/icon/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210516010023.jpg" id="logo">
 </div>
 <div class="music">
 <!--     <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=282 height=86 src="https://music.163.com/outchain/player?type=2&id=34341360&auto=1&height=66"></iframe> -->
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="https://music.163.com/outchain/player?type=2&id=34341360&auto=1&height=32"></iframe>   
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="https://music.163.com/outchain/player?type=2&id=188674&auto=1&height=32"></iframe>
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #FFCCCC;">
-    WYF, I will accompany you in the future!
+    <b>FF</b>, I will accompany you in the future!
     <br/>
     We have loved one another：
     <br/>
@@ -153,7 +152,7 @@
         e_minsold = (e_hrsold - hrsold) * 60;
         minsold = Math.floor((e_hrsold - hrsold) * 60);
         seconds = Math.floor((e_minsold - minsold) * 60);
-        span_dt_dt.innerHTML = daysold + "days  " + hrsold + "hours  " + minsold + "minutes  " + seconds + "seconds  ";
+        span_dt_dt.innerHTML = "<h1>"+ daysold + " Days  " + hrsold + " Hours  " + minsold + " Minutes  " + seconds + " Seconds " + "</h1>";
     }
     show_date_time();
 </script>
